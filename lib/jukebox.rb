@@ -74,6 +74,7 @@ def run(songs)
     case input
       when "list"
         list(songs)
+        input = gets.strip
       when "play"
         play(songs)
       when "help"
