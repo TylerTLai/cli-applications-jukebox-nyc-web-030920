@@ -83,6 +83,7 @@ def run(songs)
         input = gets.strip
       else
         puts "Invalid command"
+        input = gets.strip
     end
     
   end
