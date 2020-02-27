@@ -80,6 +80,8 @@ def run(songs)
         help
       when "exit"
         exit_jukebox
+      else
+        puts "Invalid command"
     end
     
   end
