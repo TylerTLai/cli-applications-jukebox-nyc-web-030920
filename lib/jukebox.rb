@@ -77,8 +77,10 @@ def run(songs)
         input = gets.strip
       when "play"
         play(songs)
+        input = gets.strip
       when "help"
         help
+        input = gets.strip
       else
         puts "Invalid command"
     end
